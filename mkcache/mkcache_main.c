@@ -580,6 +580,7 @@ void	cleanup_mkcache(int sig) {
 }
 
 int	main(int argc, char **argv) {
+	strcpy(Sys.AppName, "mkcache");
 	return	LinMain(
 		argc, argv,
 		run_mkcache,

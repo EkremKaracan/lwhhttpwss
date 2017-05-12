@@ -1,0 +1,73 @@
+1    text/html                             html htm shtml
+1    text/css                              css
+1    text/xml                              xml
+0    image/gif                             gif
+0    image/jpeg                            jpeg jpg
+1    application/x-javascript              js
+1    application/atom+xml                  atom
+1    application/rss+xml                   rss
+
+1    text/mathml                           mml
+1    text/plain                            txt
+1    text/vnd.sun.j2me.app-descriptor      jad
+1    text/vnd.wap.wml                      wml
+1    text/x-component                      htc
+
+1    image/png                             png
+0    image/tiff                            tif tiff
+1    image/vnd.wap.wbmp                    wbmp
+1    image/x-icon                          ico
+1    image/x-jng                           jng
+1    image/x-ms-bmp                        bmp
+1    image/svg+xml                         svg
+
+0   application/java-archive              jar war ear
+0   application/mac-binhex40              hqx
+1   application/msword                    doc
+1   application/pdf                       pdf
+1   application/postscript                ps eps ai
+1    application/rtf                       rtf
+1    application/vnd.ms-excel              xls
+1    application/vnd.ms-powerpoint         ppt
+0    application/vnd.wap.wmlc              wmlc
+0    application/vnd.wap.xhtml+xml         xhtml
+0    application/vnd.google-earth.kml+xml  kml
+0    application/vnd.google-earth.kmz      kmz
+0    application/x-cocoa                   cco
+0    application/x-java-archive-diff       jardiff
+0    application/x-java-jnlp-file          jnlp
+0    application/x-makeself                run
+0    application/x-perl                    pl pm
+0    application/x-pilot                   prc pdb
+0    application/x-rar-compressed          rar
+0    application/x-redhat-package-manager  rpm
+0    application/x-sea                     sea
+0    application/x-shockwave-flash         swf
+0    application/x-stuffit                 sit
+1    application/x-tcl                     tcl tk
+1    application/x-x509-ca-cert            der pem crt
+0    application/x-xpinstall               xpi
+0    application/zip                       zip
+
+1   application/octet-stream              bin exe dll
+1   application/octet-stream              deb
+1   application/octet-stream              dmg
+1   application/octet-stream              eot
+1   application/octet-stream              iso img
+1   application/octet-stream              msi msp msm
+
+1   audio/midi                            mid midi kar
+0   audio/mpeg                            mp3
+0   audio/x-realaudio                     ra
+1   audio/x-wav				  			wav
+
+0   video/3gpp                            3gpp 3gp
+0   video/mpeg                            mpeg mpg
+0   video/quicktime                       mov
+0   video/x-flv                           flv
+0   video/x-mng                           mng
+0   video/x-ms-asf                        asx asf
+0   video/x-ms-wmv                        wmv
+0   video/x-msvideo                       avi
+0   video/mp4				  			mp4
+1   application/octet-stream			ttf

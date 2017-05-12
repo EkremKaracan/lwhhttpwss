@@ -16,6 +16,9 @@
       <File Name="../lib/version.c"/>
       <File Name="../lib/version.h"/>
     </VirtualDirectory>
+    <File Name="../README.md" ExcludeProjConfig="Debug"/>
+    <File Name="Makefile" ExcludeProjConfig="Debug"/>
+    <File Name="mime.types" ExcludeProjConfig="Debug"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
