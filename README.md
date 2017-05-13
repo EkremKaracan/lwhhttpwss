@@ -3,11 +3,11 @@
 <p>It does preallocate necessary resources for predetermined maximum number of connections.</p>
 <p>Memory footprint stays pretty much the same over the time</p>
 
-Static content is stored in &gt;binaryname&lt;.web.data and &gt;binaryname&lt;.web.index files in &gt;binarypath&lt;/data directory.</br>
+Static content is stored in &lt;binaryname&gt;.web.data and &lt;binaryname&gt;.web.index files in &lt;binarypath&gt;/data directory.</br>
 <dl>
-<dt> &gt;binarypath&lt;/data/&gt;binaryname&lt;.web.data 
+<dt> &lt;binarypath&gt;/data/&lt;binaryname&gt;.web.data 
 <dd> Both compressed and uncompressed web content.
-<dt> &gt;binarypath&lt;/data/&gt;binaryname&lt;.web.index
+<dt> &lt;binarypath&gt;/data/&lt;binaryname&gt;.web.index
 <dd> Simple, fast specialized btree index of content file names.
 </dl>		
 To create or update these files mkcache service program must be used.
