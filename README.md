@@ -1,14 +1,15 @@
 # lwhhttpwss
-Lightweight, single threaded http and websockets server, completely written in C.
+<p>Lightweight, single threaded http and websockets server, completely written in C.</p>
+<p>It does preallocate necessary resources for predetermined maximum number of connections.</p>
+<p>Memory footprint stays pretty much the same over the time</p>
 
-It does preallocate necessary resources for predetermined maximum number of connections. 
-Memory footprint stays the same over the time.
-Static content is stored in <binaryname>.web.data and <binaryname>.web.index files in <binarypath>/data directory.
-	<binarypath>/data/<binaryname>.web.data 
-		Both compressed and uncompressed web content.
-	<binarypath>/data/<binaryname>.web.index
-		Simple, fast specialized btree index of content file names.
-		
+Static content is stored in &gt;binaryname&lt;.web.data and &gt;binaryname&lt;.web.index files in &gt;binarypath&lt;/data directory.</br>
+<dl>
+<dt> &gt;binarypath&lt;/data/&gt;binaryname&lt;.web.data 
+<dd> Both compressed and uncompressed web content.
+<dt> &gt;binarypath&lt;/data/&gt;binaryname&lt;.web.index
+<dd> Simple, fast specialized btree index of content file names.
+</dl>		
 To create or update these files mkcache service program must be used.
 	Server checks modification time of these files periodically.
 	If it is changed it loads them to memory, starts serving them and frees the last one seamlessly. 
