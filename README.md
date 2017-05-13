@@ -16,15 +16,20 @@ Static content is stored in &lt;binaryname&gt;.web.data and &lt;binaryname&gt;.w
 <dd>If it is changed it loads them to memory, starts serving them and frees the last one seamlessly. 
 <dd>This is the only condition malloc and free used after program start.
 </dl>
-When you run mkcache
-	It scans all files in <sourcepath> matching extensions in <mkcachepath>/mime.types file.
-	mime.types
-		<0|1> 		<mime type>	<extension> ...
-		0 : Do not compress
-		1 : Compress
-	If file is marked for compression and compression gain is more than %40, stores both compressed and uncompressed content.
-	Otherwise it just stores uncompressed content.
-	Then generated temporary files are moved to <cachepath>.
+<dl>
+<dt>When you run mkcache
+<dd>It scans all files in &lt;sourcepath&gt; matching extensions in &lt;mkcachepath&gt;/mime.types file.
+	<dl>
+	<dt>mime.types
+	<dd>&lt;0|1&gt; 		&lt;mime type&gt;	&lt;extension&gt; ...
+	<dl>
+		<dd>0 : Do not compress
+		<dd>1 : Compress
+	</dl>
+	</dl>
+<dd>If file is marked for compression and compression gain is more than %40, stores both compressed and uncompressed content.
+<dd>Otherwise it just stores uncompressed content.
+<dd>Then generated temporary files are moved to <cachepath>.
 	
 About command line parameters
 	Command line parameters are stored in a <binarypath>/conf/<binaryname>.cnf file.
