@@ -10,10 +10,12 @@ Static content is stored in &lt;binaryname&gt;.web.data and &lt;binaryname&gt;.w
 <dt> &lt;binarypath&gt;/data/&lt;binaryname&gt;.web.index
 <dd> Simple, fast specialized btree index of content file names.
 </dl>		
-To create or update these files mkcache service program must be used.
-	Server checks modification time of these files periodically.
-	If it is changed it loads them to memory, starts serving them and frees the last one seamlessly. 
-	This is the only condition malloc and free used after program start.
+<dl>
+<dt>To create or update these files mkcache service program must be used.
+<dd>Server checks modification time of these files periodically.
+<dd>If it is changed it loads them to memory, starts serving them and frees the last one seamlessly. 
+<dd>This is the only condition malloc and free used after program start.
+</dl>
 When you run mkcache
 	It scans all files in <sourcepath> matching extensions in <mkcachepath>/mime.types file.
 	mime.types
